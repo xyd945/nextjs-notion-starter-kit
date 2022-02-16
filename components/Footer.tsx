@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaTwitter, FaGithub, FaLinkedin, FaYoutube, FaMedium } from 'react-icons/fa'
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -50,6 +50,18 @@ export const Footer: React.FC<{
             rel='noopener noreferrer'
           >
             <FaTwitter />
+          </a>
+        )}
+
+        {config.youtube && (
+          <a
+            className={styles.youtube}
+            href={`https://youtube.com/${config.youtube}`}
+            title={`Youtube @${config.youtube}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaYoutube />
           </a>
         )}
 

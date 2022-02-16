@@ -86,6 +86,13 @@
   border-color: #2795e9;
 }
 
+.youtube .actionBgPane {
+  background: #FF0000;
+}
+.youtube:hover {
+  border-color: #FF0000;
+}
+
 .linkedin .actionBgPane {
   background: #0077b5;
 }
@@ -94,10 +101,10 @@
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #171515;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #171515;
 }
 
 .medium .actionBgPane {

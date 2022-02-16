@@ -23,6 +23,17 @@ const socialLinks: SocialLink[] = [
       </svg>
     )
   },
+  // adding youtube
+  config.youtube && {
+    name: 'youtube',
+    href: `https://youtube.com/${config.youtube}`,
+    title: `YouTube @${config.youtube}`,
+    icon: (
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 159 110'>
+        <path d='m154 17.5c-1.82-6.73-7.07-12-13.8-13.8-9.04-3.49-96.6-5.2-122 0.1-6.73 1.82-12 7.07-13.8 13.8-4.08 17.9-4.39 56.6 0.1 74.9 1.82 6.73 7.07 12 13.8 13.8 17.9 4.12 103 4.7 122 0 6.73-1.82 12-7.07 13.8-13.8 4.35-19.5 4.66-55.8-0.1-75z" fill="#f00"/><path d="m105 55-40.8-23.4v46.8z' fill="var(--fg-color-6)"/><path d="m105 55-40.8-23.4v46.8z" fill="#fff"/>
+      </svg>
+    )
+  },
 
   config.github && {
     name: 'github',
@@ -42,6 +53,17 @@ const socialLinks: SocialLink[] = [
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
         <path d='M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z' />
+      </svg>
+    )
+  },
+// adding medium (not working yet)
+  config.medium && {
+    name: 'medium',
+    href: `https://www.medium.com/in/${config.medium}`,
+    title: `Medium ${config.author}`,
+    icon: (
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
+        <path d='M2.846 6.887c.03-.295-.083-.586-.303-.784l-2.24-2.7v-.403h6.958l5.378 11.795 4.728-11.795h6.633v.403l-1.916 1.837c-.165.126-.247.333-.213.538v13.498c-.034.204.048.411.213.537l1.871 1.837v.403h-9.412v-.403l1.939-1.882c.19-.19.19-.246.19-.537v-10.91l-5.389 13.688h-.728l-6.275-13.688v9.174c-.052.385.076.774.347 1.052l2.521 3.058v.404h-7.148v-.404l2.521-3.058c.27-.279.39-.67.325-1.052v-10.608z' />
       </svg>
     )
   }
