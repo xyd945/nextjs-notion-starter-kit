@@ -13,7 +13,7 @@ module.exports = {
 
   // open graph metadata (optional)
   description: 'The official site of First Duck Research from Yino Company;-)',
-  socialImageTitle: 'First Duck Research',
+  socialImageTitle: 'First Duck',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
