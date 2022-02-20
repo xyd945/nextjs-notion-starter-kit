@@ -7,13 +7,13 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Gossip on Tech',
-  domain: 'gossipon.tech',
+  name: 'First Duck Research',
+  domain: 'firstduck.ventures',
   author: 'Yudi Xu',
 
   // open graph metadata (optional)
-  description: 'The official site of Gossip on Tech from Yino Company;-)',
-  socialImageTitle: 'Gossip on Tech',
+  description: 'The official site of First Duck Research from Yino Company;-)',
+  socialImageTitle: 'First Duck Research',
   socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
